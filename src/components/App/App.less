@@ -1,0 +1,25 @@
+@import '~antd/lib/style/themes/default.less';
+@import '~antd/dist/antd.less';
+@import '../../timeshift-theme.less';
+
+* {
+  font-family: @font-name;
+}
+
+:global(.ant-layout-header) {
+  height: 96px;
+  background-color: @primary-background-color;
+  line-height: 1;
+  padding: 19px 30px 21px 30px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+:global(.ant-layout-content) {
+  background-color: @primary-background-color;
+  padding: 25px 35px;
+}
+
+
+:global(.ant-message) {
+  display: block;
+}

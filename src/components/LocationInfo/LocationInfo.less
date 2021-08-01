@@ -1,0 +1,43 @@
+@import '../../timeshift-theme.less';
+
+.icon() {
+  background-size: 14px;
+  padding-left: 22px;
+  background-position-y: center;
+  background-size: 14px;
+  background-repeat: no-repeat;
+}
+
+.location-info {
+  &> div {
+    height: 24px;
+  }
+}
+
+.name {
+  font-size: 18px;
+  color: @location-item-name;
+}
+
+.users {
+  .icon();
+  background-image: url('../../assets/Users.svg');
+}
+
+.date {
+  .icon();
+  background-image: url('../../assets/Timezone.svg');
+}
+
+.views {
+  .icon();
+  background-image: url('../../assets/Views.svg');
+}
+
+.description {
+  padding: 20px 0 15px 0;
+
+  .description-label {
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationInfo component tests should render component without description 1`] = `
+<div>
+  <div>
+    <h2
+      data-testid="location-name-undefined"
+    >
+      McGlynnview
+    </h2>
+    <div>
+      6221
+       Users
+    </div>
+    <div>
+      10:10 am (+01:00)
+    </div>
+    <div
+      data-testid="location-views-undefined"
+    >
+      20 Views
+    </div>
+    <div>
+      <div>
+        Description
+      </div>
+      <p>
+        Investment Account
+      </p>
+    </div>
+  </div>
+</div>
+`;

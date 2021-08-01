@@ -1,0 +1,74 @@
+@import '../../timeshift-theme.less';
+
+.location-container {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  flex-flow: row wrap;
+
+  .location-item {
+    padding: 15px 25px;
+    width: 340px;
+    height: 139px;
+    border: 1px solid @location-item-border;
+    border-radius: 2px;
+    margin: 25px;
+    background-color: @location-item-bg;
+    position: relative;
+
+    &:hover {
+      background-color: @location-item-bg-hover;
+
+      .edit-icon {
+        visibility: visible;
+      }
+    }
+
+    .edit-icon {
+      background-color: @location-edit-icon;
+      border-radius: 50%;
+      width: 26px;
+      height: 26px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      visibility: hidden;
+      cursor: pointer;
+      right: 10px;
+      top: 10px;
+      position: absolute;
+      border: none;
+
+      img {
+        width: 14px;
+        height: 14px;
+      }
+    }
+  }
+}
+
+.modal {
+  :global(.ant-modal-header),
+  :global(.ant-modal-footer) {
+    border: none;
+  }
+
+  :global(.ant-modal-body) {
+    padding: 25px;
+    min-height: 200px;
+  }
+
+  :global(.ant-modal-header) {
+    padding: 16px 25px;
+  }
+
+  .ok-button {
+    border-radius: 15px;
+    background-color: @modal-ok-button-bg;
+    color: @modal-ok-button-color;
+    border: none;
+    height: 32px;
+    width: 64px;
+    padding: 4px 15px;
+  }
+}

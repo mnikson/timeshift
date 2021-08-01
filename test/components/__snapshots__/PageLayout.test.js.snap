@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageLayout component tests render component should render a component 1`] = `
+"<section class=\\"ant-layout\\">
+  <header class=\\"ant-layout-header\\">
+    <div>Acme locations</div>
+    <div>All locations</div>
+  </header>
+  <main class=\\"ant-layout-content\\">
+    <div class=\\"undefined content-class\\">
+      <p>Content test</p>
+    </div>
+  </main>
+</section>"
+`;
